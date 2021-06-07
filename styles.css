@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;	
+}
+
+#prompt-container {
+  font-family: Courier New, Courier, monospace;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+#yellow-block {
+  position: absolute;
+  margin-top: 10px;
+  width: 9px;
+  height: 15px;
+  background-color: rgba(255, 255, 0, 0.582);
+  margin-left: 1px;
+  padding: .3em;
+  border: none;
+}
+
+.keyboard-container {
+  margin-top: 50px;
+  justify-content:center;
+}
+
+#target-letter {
+  font-size: 38px;  
+}
+
+.keys-row {
+  margin-top: 40px;
+  padding: 10px 0;
+}
+
+#feedback {
+  font-size: 20px;
+}
+.glyphicon-ok {
+  color: #1DA237
+}
+
+.glyphicon-remove {
+  color : #CD2626
+}
+
+#keyboardFrame{
+  background-color:rgba(0, 0, 0, 0.589);
+  border-radius: 60px;
+  margin-top: 20em;
+  padding-top: .1em;
+  justify-content:center;
+}
+
+/* #kb{
+  background-color:grey;
+} */
+
+body{
+  background-color: grey;
+}
+
